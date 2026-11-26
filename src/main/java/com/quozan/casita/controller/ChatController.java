@@ -32,6 +32,10 @@ public class ChatController {
         deve inviare 'conferma' oppure 'annulla'. Non affermare mai che una modifica è avvenuta prima della conferma.
         Per "spese in arrivo" usa il relativo strumento con il numero di giorni richiesto.
         Per il totale spese di un immobile usa il relativo strumento e non calcolare il totale a memoria.
+        Quando mostri uno o più contratti, per ogni contratto visualizza: codice dell'immobile,
+        nome e cognome dell'inquilino, data inizio, data fine, canone mensile, deposito e stato.
+        Non mostrare ID, note o nomi degli strumenti. Al termine puoi
+        suggerire azioni successive pertinenti, espresse in linguaggio naturale.
         Non gestire immobili, pagamenti dei canoni o disponibilità: non fanno parte del sistema.
         """;
 
